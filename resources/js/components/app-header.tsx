@@ -21,6 +21,46 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
+    {
+        title: 'fdgdg',
+        href: '/dashbdfgdfgoard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashdfgfdgboard',
+        href: '/dashbdfgfdgoard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashbdfgdfgoard',
+        href: '/dashbdfgdfgoard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashbodfdfbnard',
+        href: '/dashbohghghard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashbodfdfbnard',
+        href: '/dashbohghghard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashbodfdfbnard',
+        href: '/dashbohghghard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashbodfdfbnard',
+        href: '/dashbohghghard',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Dashbodfdfbnard',
+        href: '/dashbohghghard',
+        icon: LayoutGrid,
+    },
 ];
 
 const rightNavItems: NavItem[] = [
