@@ -1,13 +1,18 @@
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
-import laravel from 'laravel-vite-plugin';
-import { resolve } from 'node:path';
-import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
+import laravel from 'laravel-vite-plugin'
+import { resolve } from 'node:path'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.tsx'],
+            input: [
+                'resources/css/app.css',
+                'resources/css/frontend.css',
+                'resources/js/app.tsx',
+                'resources/js/frontend.js',
+            ],
             ssr: 'resources/js/ssr.tsx',
             refresh: true,
         }),
@@ -22,4 +27,4 @@ export default defineConfig({
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
         },
     },
-});
+})
